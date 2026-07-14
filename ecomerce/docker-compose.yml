@@ -2,6 +2,16 @@ services:
   rabbitmq:
     image: rabbitmq:3-management
     container_name: broker_ecommerce
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: 123456
     ports:
       - "5672:5672"   # Porta de comunicacao da fila
-      - "15672:15672" # Porta do painel visual 
+      - "15672:15672" # Porta do painel visual
+
+  mailpit:
+    image: axllent/mailpit
+    container_name: mail_server
+    ports:
+    - "1025:1025" # Porta SMTP onde o Spring vai enviar os emails
+    - "8025:8025" # Porta do painel Web para você ler os emails
