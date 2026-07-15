@@ -1,0 +1,7 @@
+/workspaces/Ecomerce-rabbitMQ/ecomerce/src/main/java/com/ecomerce/ecomerce/EcomerceApplication.java
+/workspaces/Ecomerce-rabbitMQ/ecomerce/src/main/java/com/ecomerce/ecomerce/config/RabbitConfig.java
+/workspaces/Ecomerce-rabbitMQ/ecomerce/src/main/java/com/ecomerce/ecomerce/consumer/LogisticaConsumer.java
+/workspaces/Ecomerce-rabbitMQ/ecomerce/src/main/java/com/ecomerce/ecomerce/consumer/LogisticaDLQConsumer.java
+/workspaces/Ecomerce-rabbitMQ/ecomerce/src/main/java/com/ecomerce/ecomerce/consumer/NotificacaoConsumer.java
+/workspaces/Ecomerce-rabbitMQ/ecomerce/src/main/java/com/ecomerce/ecomerce/dto/PedidoDTO.java
+/workspaces/Ecomerce-rabbitMQ/ecomerce/src/main/java/com/ecomerce/ecomerce/produce/PedidoController.java
